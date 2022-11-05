@@ -6,11 +6,8 @@
 }
 
 .rotate_image {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+    width: 40%;
 }
 
 .navbar {
@@ -20,4 +17,17 @@
 .nav-item {
     padding: 0 18px;
 
+}
+i{
+    color:green;
+}
+i:hover {
+ color:#ff4c68;
+}
+#features {
+    padding: 7% 14%;
+}
+.features-box {
+    text-align: center;
+    padding: 5%;
 }
