@@ -24,6 +24,9 @@ i{
 i:hover {
  color:#ff4c68;
 }
+i {
+    margin-bottom: 1rem;
+}
 #features {
     padding: 7% 14%;
 }
@@ -31,3 +34,32 @@ i:hover {
     text-align: center;
     padding: 5%;
 }
+
+#testimonials {
+    text-align: center;
+    background-color: grey;
+    color: green;
+}
+.testimonials-image {
+ width: 15%;
+ border-radius: 100%;
+ margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #FFEFD6;
+    text-align: center;
+    padding: 10px;
+}
+.press-image {
+    padding: 15px 10px;
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
