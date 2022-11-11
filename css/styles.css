@@ -1,3 +1,4 @@
+
 #title {
     background-color: #ff4c68;
 }
@@ -5,9 +6,18 @@
     padding: 3% 15%;
 }
 
-.rotate_image {
+.rotate-image {
     transform: rotate(25deg);
     width: 40%;
+}
+@media (max-width: 1028px) {
+  .rotate-image{
+    transform: rotate(0);
+    margin-top: 20px;
+}
+#title {
+    text-align: center;
+}
 }
 
 .navbar {
@@ -24,9 +34,9 @@ i{
 i:hover {
  color:#ff4c68;
 }
-i {
+/* i {
     margin-bottom: 1rem;
-}
+} */
 #features {
     padding: 7% 14%;
 }
@@ -60,6 +70,23 @@ i {
     margin: 20px 20px 50px;
 }
 
+#cta {
+    text-align: center;
+    background-color: grey;
+    padding: 7% 15%;
+}
+.cta-heading {
+    color: white;
+}
 
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+  
+}
+
+.social-icon {
+ margin: 20px 10px;
+}
 
 
